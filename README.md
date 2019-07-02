@@ -8,14 +8,14 @@ In this post I am going to show you how to configure Animate.css to be used in a
 
 # Step 1 (or 0). Init your project
 
-If you are thinking about using animate.css in your angular project, you probably already have an initialized project. However, let's start with our project from scratch.
+If you are thinking about using animate.css in your angular project, you probably have an initialized project already. However, for this tutorial, let's start with our project from scratch.
 
 ```
 ng new angular-animate
 cd angular-animate
 ```
 
-# Step 2. Install `animate.css`
+# Step 2. Install animate.css
 
 Install `animate.css`
 
@@ -23,7 +23,7 @@ Install `animate.css`
   npm install animate.css
 ```
 
-# Step 3. Include `animate.css`
+# Step 3. Include animate.css
 
 There are several ways to include Animate.css in our project:
 
@@ -44,7 +44,7 @@ There are several ways to include Animate.css in our project:
 
 # Step 4. Add animated CSS Class
 
-Open your template's component and add the animated CSS class in any html elements:
+Open your template's component and add the animated CSS class in any of the html elements:
 
 ```
 <div style="text-align:center" class="animated flip infinite">
